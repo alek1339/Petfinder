@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6, p, a, button{
+    font-family: 'Gotham', sans-serif;
+}
+
+img{
+    object-fit: cover;
+}
+
+#home{
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    color: #333333;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header */
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: #fff;
+    padding-bottom: 0;
+    padding-top: 1rem;
+    height: 130px;
+}
+
+header a{
+    justify-self: center;
+}
+
+header a , header ul{
+    align-self: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color:#425664;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-weight: 400;
+}
+
+header ul li {
+    display: inline;
+}
+
+.logo{
+    width: 120px;
+}
+
+/* Slier Section */
+.slider{
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+}
+.slider aside{
+    padding: 3.5rem;
+    background-color: #425664;
+    color: #EEF2E2;
+    font-size:20px;
+    font-family: "Utopia Std", serif;
+    font-weight: 400;
+    border-top: 60px solid #fff;
+}
+.slider div{
+   background-image: url('https://lh3.googleusercontent.com/OZ4ejID6MwipvmSnVNAQ7ptnpbLWa9ZPI7kKnSVKsnstHhLFG4BwhkN6wQRRqiEoXd-iZSUS5xnJ4WlJ7W5Yz2OAIAxptf0DAy8Jre-fngmlNCMom0A6uNJjumGI7Gx6r42gt7TRAOjGIeZagIPHcVf2lplmwSnvefOBw61Xi4DNMQAFjyvq_8kbCZKmiovd884O3rTlesaoEM0rlcHkUb89iKzZFY5mWqzqW6mG6WiD-UZjhMxIVvHfCs_RqDFzMy9vAg-CxOr0JCcaJWWmV6gtQZmxA3p04R3JR7arxhpgA4RPOnU53IWSqHidDm6uzjBeC-ZxXKoDlifiopig4AwNUH9URzpHtvsrY8mk-68yZCBy0zOXGhLZVWmMLp47OHnnrW_mUk7Ea9YIUWtxtoWXECF28nbApnTVgrueCH4rRX9E5KWcBDF9k4xRXa3YgJO_bhH74Zy9d33KCToCSa0B47i8wEcBqoDXnoMmwJ3RSi_zWZRIciNmeRtIqkaxaaoWpxTKmUDloVgA52W8zy3N9yNXa1IWytKVRMOOKT3TBcOL4_FHWspj8ExYjO7AM9WdXXtQoS3dABEZO7HzV5UkZ9HTMKfo-Ud2fegHegB4TszJJVLFaIBKPBxoOzCObVGdm_5QWeBrbHgmZcYyWPQh__pptq4=w834-h625-no');
+   background-size: cover;
+    height: 500px;
+}
+.slider a {
+    color: white;
+}
+
+
+.hidden{
+    height: 100vh;
+}
+
+
+/* MENU */
+.menu{
+    min-height: 80vh;
+    background-color: #425664;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 3rem;  
+    color: white;
+}
+.menu a {
+    color: white;
+    font-family: 'Gotham', sans-serif;
+    font-weight:400;
+    text-transform: uppercase;
+}
+
+.menu ul{
+    padding: 0;
+}
+
+.menu li{
+    list-style-type: none;
+    padding-bottom: 1.5rem;
+}
+
+iframe{
+    visibility: hidden;
+}
+
+/* Hidden Menu Content */
+
+.hidden{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.supportUsFirstHalf{
+    display: none;
+}
+
+.supportUsSecondHalf{
+    display: none;
+}
+
+.adoptFirstHalf{
+    display: none;
+}
+
+.adoptSecondHalf{
+    display: none;
+}
+
+.adoptAnimalsFirstHalf{
+    display: none;
+}
+
+.adoptAnimalsSecondHalf{
+    display: none;
+}
+
+.contactsFirstHalf{
+    display: none;
+}
+
+.contactsSecondHalf{
+    display: none;
+}
+
+
+iframe{
+    visibility: hidden;
+}
+
+button:hover, i:hover, picture img{
+    cursor: pointer;
+}
+
+
+button:focus {
+    outline:0;
+}
+
+.backgroundImage{
+    background-image: url('https://lh3.googleusercontent.com/kPiC259eTxNg46s-9W61ZKVOcSdXO5xpGbAPJcW3LcQjPP8q9scdLJsWu-iwGpBZFwzANVg1wliadpTba7lk9qFhTxVkLGQMcI9ICVnxXJhE1-lJUNBisU_y6WucNeQw6CGn9o-IkH4-uru2otCrcirIeJjWM3SSVOdDqAgCIs94f6NBusKg8XljOieSRZMdq_OmpdDEoy9-65V6nXG1AKBlI4YN0TL0dn7DwjdJghv8q28ZtANgiEAk9kyneCnb3GejEtoh1psdff93ChgFD7mHRW1AB2urRAxh3W7dkh3dJMQ1wRD4e-lV2L8BuzHn-RLmW4wNaihqgmdn-G91cBwr4gLxkW1HCAyOaAdEOcIZw_Kk5h54I2f5ABlUSJdF8nd-_AYUsjvSMoF_cORzJhtpoZt6VzBmqEufkg8RmxIU3uOn5tSoxIUabFN6UcOKtit2UZNZYzzzMV-LBBXWbj7sE2AxgZyVLKqfhqq5-NKHdq006lrBCddVOgRmnC100QmoTXvcUa8fg8hRgRvMoMhQ5MVcbiaco6U5sVo9yB0N2uLQeIdc5HXBEpQvG2pEDvzIWLHs7xkKuSFmDl95bB8SUxDfkdTVuJgnQclp_AxAjPSddRzaqCejIDE4woxLJ21vuUnVkH2vwRnsp2hI37TmHnZxUnw=w834-h625-no');
+    background-size: cover;
+}
+
+
+.hidden{
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+    grid-template-columns: 1fr 2fr;
+}
+
+.logoAndButton{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.hiddenPageContent{
+    display: flex;
+    padding: 2rem;
+}
+
+.hiddenPageContent section{
+    flex-basis: 50%;
+}
+
+.hiddenPageContent section{
+    padding-right: 1rem;
+}
+
+.hiddenPageContent button{
+    color: black;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.hiddenPageContent button:hover{
+    border: 1px solid  black; 
+    border-radius: 3px;
+}
+
+.hiddenPageContent button a:hover{
+    text-decoration: none;  
+}
+
+.menu-content-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hidden button {
+    background: none;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.hidden button:hover{
+    color: #c6ad8f;
+}
