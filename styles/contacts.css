@@ -1,0 +1,14 @@
+.contacts{
+    display: grid;
+    min-height: 80vh;
+    background-color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 4rem;
+    grid-column-gap: 2rem;
+}
+
+.contactsHeader{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    justify-self: center;
+}

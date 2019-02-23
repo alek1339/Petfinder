@@ -71,7 +71,7 @@ header ul li {
     border-top: 60px solid #fff;
 }
 .slider div{
-   background-image: url('https://lh3.googleusercontent.com/OZ4ejID6MwipvmSnVNAQ7ptnpbLWa9ZPI7kKnSVKsnstHhLFG4BwhkN6wQRRqiEoXd-iZSUS5xnJ4WlJ7W5Yz2OAIAxptf0DAy8Jre-fngmlNCMom0A6uNJjumGI7Gx6r42gt7TRAOjGIeZagIPHcVf2lplmwSnvefOBw61Xi4DNMQAFjyvq_8kbCZKmiovd884O3rTlesaoEM0rlcHkUb89iKzZFY5mWqzqW6mG6WiD-UZjhMxIVvHfCs_RqDFzMy9vAg-CxOr0JCcaJWWmV6gtQZmxA3p04R3JR7arxhpgA4RPOnU53IWSqHidDm6uzjBeC-ZxXKoDlifiopig4AwNUH9URzpHtvsrY8mk-68yZCBy0zOXGhLZVWmMLp47OHnnrW_mUk7Ea9YIUWtxtoWXECF28nbApnTVgrueCH4rRX9E5KWcBDF9k4xRXa3YgJO_bhH74Zy9d33KCToCSa0B47i8wEcBqoDXnoMmwJ3RSi_zWZRIciNmeRtIqkaxaaoWpxTKmUDloVgA52W8zy3N9yNXa1IWytKVRMOOKT3TBcOL4_FHWspj8ExYjO7AM9WdXXtQoS3dABEZO7HzV5UkZ9HTMKfo-Ud2fegHegB4TszJJVLFaIBKPBxoOzCObVGdm_5QWeBrbHgmZcYyWPQh__pptq4=w834-h625-no');
+   background-image: url('../images/slide-1.jpg');
    background-size: cover;
     height: 500px;
 }
@@ -110,7 +110,7 @@ header ul li {
     padding-bottom: 1.5rem;
 }
 
-iframe{
+.mapInMenu{
     visibility: hidden;
 }
 
@@ -152,11 +152,6 @@ iframe{
 
 .contactsSecondHalf{
     display: none;
-}
-
-
-iframe{
-    visibility: hidden;
 }
 
 button:hover, i:hover, picture img{
