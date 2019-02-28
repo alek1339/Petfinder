@@ -1,16 +1,15 @@
-const express = require('express'),
-    path = require('path'),
-    bodyParser = require('body-parser'),
-    cors = require('cors'),
-    mongoose = require('mongoose'),
-    config = require('./DB')
+const express = require('express')
+const bodyParser = require('body-parser')
+const cors = require('cors')
+const mongoose = require('mongoose')
+const config = require('./DB')
 
 const users = require('./routes/users')
 
 mongoose.Promise = global.Promise
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
-    () => { console.log('Database is connected') },
-    err => { console.log('Can not connect to the database' + err) }
+  () => { console.log('Database is connected') },
+  err => { console.log('Can not connect to the database' + err) }
 )
 
 const app = express()
@@ -21,5 +20,5 @@ app.use('/users', users)
 const port = process.env.PORT || 4000
 
 const server = app.listen(port, function () {
-    console.log('Listening on port ' + port)
+  console.log('Listening on port ' + port)
 })
